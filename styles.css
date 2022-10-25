@@ -104,3 +104,12 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+.bottom-logo{
+    margin: 5px auto 0 auto;
+    width: 500px;
+    background-color: rgba(175,175,175, 0.5);
+}
+
+.bottom-logo img{
+    width: 500px;
+}
