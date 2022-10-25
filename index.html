@@ -6,28 +6,27 @@
     <title>Encuesta Saludable</title>
     <link rel="stylesheet" href="stiles.css">
 </head>
-
 <body>
-
+    
     <h1 id="title">Encuesta Saludable</h1>
     <p id="description" class="description">Hablemos de tus metas</p>
-    <form id="survey-form" action="">
+    <form id="survey-form" action="https://github.com/lpsaldana">
         <h2><strong> Datos Personales </strong></h2>
         <label id="name-label" for="name">
-            Nombre:
+            Nombre: 
             <label class="blank-space"></label>
-            <input type="text" id="name" placeholder="Nombre" class="names">
-            <input type="text" id="lastname" placeholder="Apellido" class="names">
+            <input type="text" id="name" placeholder="Nombre" class="names" required> 
+            <input type="text" id="lastname" placeholder="Apellido" class="names" required>
         </label>
         <label id="email-label" for="email">
-            Email:
-            <input type="email" placeholder="Ingresa tu Email">
+            Email: 
+            <input type="email" placeholder="Ingresa tu Email" required>
         </label>
         <label id="number-label" for="number">
-            Teléfono:
+            Teléfono: 
             <label class="blank-space"></label>
             <input type="text" id="code" placeholder="Código de Area" class="area-code">
-            <input type="number" id="number" min="9" max="9" placeholder="Número de Teléfono" class="telephone">
+            <input type="number" id="number" min="9" max="9" placeholder="Número de Teléfono" class="telephone" required>
         </label>
         <p>Selecciona el rango de edad en el que te encuentras: </p>
         <select id="dropdown">
@@ -52,13 +51,12 @@
         <label for="mwin"><input type="checkbox" id="mwin" class="inline"> Ganar Masa Muscular</label>
         <label for="mform"><input type="checkbox" id="mform" class="inline"> Tonificar</label>
         <label for="energi"><input type="checkbox" id="energi" class="inline"> Tener Mas Energía</label>
-        <label for="asthetic"><input type="checkbox" id="asthetic" class="inline"> Mejorar Apariencia de Piel, Cabello y
-            Uñas</label>
+        <label for="asthetic"><input type="checkbox" id="asthetic" class="inline"> Mejorar Apariencia de Piel, Cabello y Uñas</label>
         <label for="digest"><input type="checkbox" id="digest" class="inline"> Resolver Problemas Digestivos</label>
 
         <p>Hablanos un poco sobre lo que te gustaría lograr: </p>
         <textarea id="about" cols="30" rows="10" placeholder="Me gustaría..."></textarea>
-        <input type="button" value="Enviar" id="submit">
+        <input type="submit" value="Enviar" id="submit">
 
 
 
