@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Encuesta Saludable</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="surveyStyles.css">
 </head>
 <body>
     
     <h1 id="title">Encuesta Saludable</h1>
     <p id="description" class="description">Hablemos de tus metas</p>
-    <form id="survey-form" action="https://github.com/lpsaldana">
+    <form id="survey-form" action="https://linktr.ee/amarisr">
         <h2><strong> Datos Personales </strong></h2>
         <label id="name-label" for="name">
             Nombre: 
@@ -20,7 +20,7 @@
         </label>
         <label id="email-label" for="email">
             Email: 
-            <input type="email" placeholder="Ingresa tu Email" required>
+            <input type="email" placeholder="Ingresa tu Email" id="email" required>
         </label>
         <label id="number-label" for="number">
             Teléfono: 
@@ -37,30 +37,33 @@
         <br><br>
         <h2><strong> Acerca de ti </strong></h2>
         <p>Que te gustaría mejorar este año?</p>
-        <label for="my-body"><input type="radio" name="changes" id="my-body" checked class="inline"> Cuerpo</label>
-        <label for="health"><input type="radio" name="changes" id="health" class="inline"> Salud</label>
-        <label for="both"><input type="radio" name="changes" id="both" class="inline"> Ambos</label>
+        <label for="my-body"><input type="radio" name="changes" id="my-body" checked class="inline" value="radio1"> Cuerpo</label>
+        <label for="health"><input type="radio" name="changes" id="health" class="inline" value="radio2"> Salud</label>
+        <label for="both"><input type="radio" name="changes" id="both" class="inline" value="radio3"> Ambos</label>
 
         <p>Realizas alguna actividad física?</p>
-        <label for="exercise1"><input type="radio" name="exercise" id="exercise1" checked class="inline"> Si</label>
-        <label for="exercise2"><input type="radio" name="exercise" id="exercise2" class="inline"> No</label>
+        <label for="exercise1"><input type="radio" name="exercise" id="exercise1" checked class="inline" value="radio4"> Si</label>
+        <label for="exercise2"><input type="radio" name="exercise" id="exercise2" class="inline" value="radio5"> No</label>
 
         <p>Que cambios te gustaría obtener?</p>
-        <label for="wloss"><input type="checkbox" id="wloss" class="inline"> Perder Peso</label>
-        <label for="sloss"><input type="checkbox" id="sloss" class="inline"> Reducir Medidas</label>
-        <label for="mwin"><input type="checkbox" id="mwin" class="inline"> Ganar Masa Muscular</label>
-        <label for="mform"><input type="checkbox" id="mform" class="inline"> Tonificar</label>
-        <label for="energi"><input type="checkbox" id="energi" class="inline"> Tener Mas Energía</label>
-        <label for="asthetic"><input type="checkbox" id="asthetic" class="inline"> Mejorar Apariencia de Piel, Cabello y Uñas</label>
-        <label for="digest"><input type="checkbox" id="digest" class="inline"> Resolver Problemas Digestivos</label>
+        <label for="wloss"><input type="checkbox" id="wloss" class="inline" value="ch1"> Perder Peso</label>
+        <label for="sloss"><input type="checkbox" id="sloss" class="inline" value="ch2"> Reducir Medidas</label>
+        <label for="mwin"><input type="checkbox" id="mwin" class="inline" value="ch3"> Ganar Masa Muscular</label>
+        <label for="mform"><input type="checkbox" id="mform" class="inline" value="ch4"> Tonificar</label>
+        <label for="energi"><input type="checkbox" id="energi" class="inline" value="ch5"> Tener Mas Energía</label>
+        <label for="asthetic"><input type="checkbox" id="asthetic" class="inline" value="ch6"> Mejorar Apariencia de Piel, Cabello y Uñas</label>
+        <label for="digest"><input type="checkbox" id="digest" class="inline" value="ch7"> Resolver Problemas Digestivos</label>
 
-        <p>Hablanos un poco sobre lo que te gustaría lograr: </p>
+        <p>Háblanos un poco sobre lo que te gustaría lograr: </p>
         <textarea id="about" cols="30" rows="10" placeholder="Me gustaría..."></textarea>
         <input type="submit" value="Enviar" id="submit">
 
-
-
     </form>
+    <div  class="bottom-logo">
+        <a href="https://linktr.ee/amarisr" target="_blank">
+            <img src="fondo1.jpg" alt="afynlogo">
+        </a>
+    </div>
 
 </body>
 
