@@ -83,6 +83,15 @@ fieldset:last-of-type{
     vertical-align: middle;
 }
 
+input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    min-width: 300px;
+}
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -94,3 +103,4 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
